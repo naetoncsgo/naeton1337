@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+}
+
+body{
+	z-index: -1;
+	background-image: url(bg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100%;
+	backdrop-filter: blur(3px);
+}
+
+#header{
+	width: max-content;
+	height: max-content;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-bottom: 2px solid #ff65bd;
+	border-left: 2px solid #ff65bd;
+	border-right: 2px solid #ff65bd;
+	background: rgba(0,0,0, 0.5);
+	box-shadow: 0 0 150px #ff65bd;
+
+}
+
+#header-list{
+	text-decoration: none;
+}
+
+#header-list li{
+	display: inline;
+	font-family: arial;
+	padding: 6%;
+}
+
+.list-pics{
+	min-width: 21px;
+	min-height: 21px;
+	max-width: 35px;
+	max-height: 35px;
+	border: 2px solid transparent;
+	-webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+     -khtml-user-select: none; 
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none;
+
+}
+
+.list-pics:hover{
+	border: 2px solid #ff65bd;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.list-pics-yt{
+	width: 40px;
+	height: 31px;
+	border: 2px solid transparent;
+	border-radius: 25%;
+}
+
+.list-pics-yt:hover{
+	border: 2px solid#ff65bd;
+	border-radius: 25%;
+	cursor: pointer;
+}
+
+#drop-button{
+	cursor: pointer;
+	font-size: 25px;
+	color: white;
+	-webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+#drop-button:hover{
+	-webkit-text-stroke-color: #ff65bd;
+}
