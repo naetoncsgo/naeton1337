@@ -105,6 +105,8 @@ body{
 	width: max-content;
 	height: max-content;
 	display: none;
+	border: 2px solid #ff65bd;
+	box-shadow: 0 0 150px #ff65bd;
 }
 
 #szoveg_magamrol{
