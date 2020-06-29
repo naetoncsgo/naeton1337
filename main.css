@@ -104,7 +104,7 @@ body{
 	background: rgba(0,0,0, 0.5);
 	width: max-content;
 	height: max-content;
-	display: none;
+	opacity: 0;
 	border: 2px solid #ff65bd;
 	box-shadow: 0 0 150px #ff65bd;
 }

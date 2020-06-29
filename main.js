@@ -14,11 +14,15 @@ $(document).ready(function(){
 	});
 
 	$('#ab_me').click(function(){
-		$('#about_me').css('display', 'block');
+		$('#about_me').animate({
+			opacity: '1'
+		});
 	});
 
 	$('#about_me_close').click(function(){
-		$('#about_me').css('display', 'none');
+		$('#about_me').animate({
+			opacity: '0'
+		});
 	});
 
 	$(function() {
