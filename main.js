@@ -17,12 +17,15 @@ $(document).ready(function(){
 		$('#about_me').animate({
 			opacity: '1'
 		});
+		$('#about_me_close').css('display', 'block');
 	});
 
 	$('#about_me_close').click(function(){
+		$('#about_me_close').css('display', 'none');
 		$('#about_me').animate({
 			opacity: '0'
 		});
+		
 	});
 
 	$(function() {
