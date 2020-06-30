@@ -143,3 +143,23 @@ body{
 #about_me_close:hover{
 	-webkit-text-stroke-color: #ff65bd;
 }
+
+#counter{
+	position: absolute;
+	left: 50%;
+	bottom: 0%;
+	transform: translate(-50%, -50%);
+}
+
+#total_views{
+	position: absolute;
+	left: 50%;
+	bottom: 2.5%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: #000;
+	font-size: 25px;
+	font-weight: bold;
+}
